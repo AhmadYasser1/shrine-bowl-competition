@@ -1,0 +1,90 @@
+{
+  "skill": {
+    "auc_mean": 0.6500000000000001,
+    "auc_std": 0.20682789409984764,
+    "r2_mean": 0.06559993615797297,
+    "r2_std": 0.4759515452322374,
+    "n_samples": 34,
+    "n_features": 11,
+    "selected_features": [
+      "direction_changes",
+      "standing_vertical",
+      "p75_speed",
+      "wingspan",
+      "bench_reps_of_225"
+    ]
+  },
+  "dl": {
+    "auc_mean": NaN,
+    "auc_std": NaN,
+    "r2_mean": -0.4906961025120406,
+    "r2_std": 1.4001425415444013,
+    "n_samples": 18,
+    "n_features": 6,
+    "selected_features": [
+      "p90_speed",
+      "p75_speed",
+      "direction_changes",
+      "speed_std",
+      "mean_speed"
+    ]
+  },
+  "lb": {
+    "auc_mean": NaN,
+    "auc_std": NaN,
+    "r2_mean": -4.130409249576649,
+    "r2_std": 5.843177992073172,
+    "n_samples": 10,
+    "n_features": 3,
+    "selected_features": [
+      "mean_speed",
+      "height",
+      "speed_range"
+    ]
+  },
+  "db": {
+    "auc_mean": NaN,
+    "auc_std": NaN,
+    "r2_mean": -3.647944566091293,
+    "r2_std": 6.448273751298072,
+    "n_samples": 33,
+    "n_features": 11,
+    "selected_features": [
+      "tackles_per_season",
+      "speed_cv",
+      "three_cone",
+      "mean_speed",
+      "agility_index"
+    ]
+  },
+  "ol": {
+    "auc_mean": NaN,
+    "auc_std": NaN,
+    "r2_mean": -6.849919091278369,
+    "r2_std": 11.57918948531674,
+    "n_samples": 18,
+    "n_features": 6,
+    "selected_features": [
+      "bench_reps_of_225",
+      "athleticism_index",
+      "explosion_index",
+      "standing_broad_jump",
+      "forty_yd_dash"
+    ]
+  },
+  "global": {
+    "auc_mean": 0.5775036075036074,
+    "auc_std": 0.10452497665813738,
+    "r2_mean": -0.2538742332443007,
+    "r2_std": 0.10517818840842483,
+    "n_samples": 113,
+    "n_features": 15,
+    "selected_features": [
+      "p75_speed",
+      "max_speed",
+      "speed_range",
+      "mean_speed",
+      "explosion_index"
+    ]
+  }
+}

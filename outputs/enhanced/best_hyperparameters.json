@@ -1,0 +1,44 @@
+{
+  "skill": {
+    "learning_rate": 0.2,
+    "max_depth": 3,
+    "min_child_weight": 1,
+    "n_estimators": 50,
+    "subsample": 1.0
+  },
+  "dl": {
+    "n_estimators": 100,
+    "max_depth": 3,
+    "learning_rate": 0.1,
+    "min_child_weight": 1,
+    "subsample": 0.8
+  },
+  "lb": {
+    "n_estimators": 100,
+    "max_depth": 3,
+    "learning_rate": 0.1,
+    "min_child_weight": 1,
+    "subsample": 0.8
+  },
+  "db": {
+    "learning_rate": 0.1,
+    "max_depth": 2,
+    "min_child_weight": 1,
+    "n_estimators": 150,
+    "subsample": 1.0
+  },
+  "ol": {
+    "n_estimators": 100,
+    "max_depth": 3,
+    "learning_rate": 0.1,
+    "min_child_weight": 1,
+    "subsample": 0.8
+  },
+  "global": {
+    "learning_rate": 0.1,
+    "max_depth": 3,
+    "min_child_weight": 1,
+    "n_estimators": 100,
+    "subsample": 0.8
+  }
+}
