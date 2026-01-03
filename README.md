@@ -88,9 +88,4 @@ python generate_advanced_viz.py
 
 ## Contact
 
-[Your contact information]
-
-## License
-
-This project was created for the Shrine Bowl x SumerSports 2026 Analytics Competition.
-
+Emaill: [ahmadyasser03@outlook.com]
